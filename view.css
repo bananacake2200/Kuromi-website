@@ -1,0 +1,144 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: url(img/pastel.jpg);
+    box-shadow: 0 1px 4px hsla(0, 0%, 98%, 0.1);
+    z-index: 100;
+    border-bottom: 1px solid pink;
+    padding-right: 20%;
+}
+.heading {
+   font-size: 3rem;
+   background-color: black;
+   color: white;
+   margin-left: 40%;
+   margin-right: 40%;
+   border: 1px solid white;
+   margin-top: 3%;
+}
+.a{
+   background-color: black;
+   color: white;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0;
+}
+.nav a {
+            float: right;
+            text-decoration: none;
+            color: black;
+            padding: 9px 25px;
+            font-size: 20px;
+            font-weight: 600;
+            
+        }
+
+        .nav a:hover {
+            background-color: rgb(136, 119, 119);
+            transition: .5s;
+        }
+  
+body{
+            background-size: cover;
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-image: url('img/kurmel.jpg');
+            backdrop-filter: blur(10px);
+      }
+      .display-product-tablee table{
+   width: 100%;
+   text-align: center;
+   border: 1px solid black;
+   margin-left: 0%;
+   background-color: white;
+   margin-bottom: 0%;
+   margin-top: 5%;
+}
+
+.display-product-tablee table thead th{
+   padding:1.5rem;
+   font-size: 2rem;
+   background-color: pink;
+   color:black;
+   border-radius: 5px;
+  
+}
+
+.display-product-tablee table td{
+   padding:1.5rem;
+   font-size: 2rem;
+   color:black;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+.display-product-tablee table td:first-child{
+   padding:0;
+}
+
+.display-product-tablee table tr:nth-child(even){
+   background-color: white;
+}
+
+.display-product-tablee .empty{
+   margin-bottom: 2rem;
+   text-align: center;
+   background-color: white;
+   color:var(--black);
+   font-size: 2rem;
+   padding:1.5rem;
+}
+.delete-btn {
+   color: white ;
+   background-color: black;
+}
+.delete-btn:hover{
+   background-color: pink;
+   color: black;
+}
+.option-btn {
+   color: white;
+   background-color: black;
+
+}
+.option-btn:hover{
+   background-color: pink;
+   color: black;
+}
+.display-product-tablee input[type="number"]{
+   border: var(--border);
+   padding:1rem 2rem;
+   font-size: 2rem;
+   color:black;
+   width: 10rem;
+}
+
+.display-product-tablee input[type="submit"]:hover{
+   background-color: var(--black);
+}
+.checkout-btn{
+   text-align: center;
+   margin-top: 10px;
+}
+
+.checkout-btn a{
+   display: inline-block;
+   width: 300px;
+   font-size: 20px;
+   margin-bottom: 5%;
+   background-color: black;
+   color: white;
+}
+
+.checkout-btn a.disabled{
+   pointer-events: none;
+   opacity: .5;
+   user-select: none;
+   background-color: black;
+}
